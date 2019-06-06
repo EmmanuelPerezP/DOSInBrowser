@@ -10,6 +10,6 @@ mainconte.insertAdjacentHTML("afterend",`
 var dosbox = new Dosbox({
   id: 'dosbox',
   onload: (dosbox) => {
-    dosbox.run('./doom.zip', './DOOM.EXE');
+    dosbox.run('https://emmanuelperezp.github.io/DOSInBrowser/doom.zip', './DOOM.EXE');
   }
 })
